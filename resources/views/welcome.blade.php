@@ -52,7 +52,7 @@
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid, amet dicta esse molestias nesciunt
                 optio porro quasi ullam. Itaque.
             </p>
-            <button class="btn btn-dark action">LETS START</button>
+            <button class="btn btn-colored action">LETS START</button>
         </div>
     </div>
 </section>
@@ -85,17 +85,29 @@
             </div>
         </div>
         <div class="row abilities">
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 ">
-                <div class="box"></div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
+                <div class="box ability-1">
+
+                    <div class="abilities-title">Web Development</div>
+                </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 ">
-                <div class="box"></div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
+                <div class="box ability-2">
+
+                    <div class="abilities-title">Web Design</div>
+                </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 ">
-                <div class="box"></div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
+                <div class="box ability-3">
+
+                    <div class="abilities-title">Start-Ups</div>
+                </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 ">
-                <div class="box"></div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
+                <div class="box ability-4">
+
+                    <div class="abilities-title">Graphic Design</div>
+                </div>
             </div>
         </div>
     </div>
@@ -234,16 +246,12 @@
                         <span>+98 935 706 2236</span>
                     </a>
                     <a href="">
-                        <i class="fab fa-skype"></i>
-                        <span>contact@websijtje.nl</span>
+                        <i class="fab fa-instagram"></i>
+                        <span>@websijtje</span>
                     </a>
                     <a href="">
                         <i class="far fa-envelope"></i>
                         <span>contact@websijtje.nl</span>
-                    </a>
-                    <a href="tel:+989357062236">
-                        <i class="far fa-phone"></i>
-                        <span>+98 935 706 2236</span>
                     </a>
                 </div>
 
