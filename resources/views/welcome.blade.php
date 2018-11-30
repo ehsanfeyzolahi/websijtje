@@ -22,23 +22,23 @@
             </a>
 
             {{--<div class="collapse navbar-collapse" id="navbarSupportedContent">--}}
-                {{--<ul class="navbar-nav mr-auto" style="margin-left: auto !important; margin-right: 0 !important;">--}}
-                    {{--<li class="nav-item">--}}
-                        {{--<a class="nav-link" href="#">Who We Are</a>--}}
-                    {{--</li>--}}
-                    {{--<li class="nav-item">--}}
-                        {{--<a class="nav-link" href="#">Packages</a>--}}
-                    {{--</li>--}}
-                    {{--<li class="nav-item">--}}
-                        {{--<a class="nav-link" href="#">Our Works</a>--}}
-                    {{--</li>--}}
-                    {{--<li class="nav-item">--}}
-                    {{--<a class="nav-link" href="#">Team</a>--}}
-                    {{--</li>--}}
-                    {{--<li class="nav-item">--}}
-                        {{--<a class="nav-link" href="#">Contact</a>--}}
-                    {{--</li>--}}
-                {{--</ul>--}}
+            {{--<ul class="navbar-nav mr-auto" style="margin-left: auto !important; margin-right: 0 !important;">--}}
+            {{--<li class="nav-item">--}}
+            {{--<a class="nav-link" href="#">Who We Are</a>--}}
+            {{--</li>--}}
+            {{--<li class="nav-item">--}}
+            {{--<a class="nav-link" href="#">Packages</a>--}}
+            {{--</li>--}}
+            {{--<li class="nav-item">--}}
+            {{--<a class="nav-link" href="#">Our Works</a>--}}
+            {{--</li>--}}
+            {{--<li class="nav-item">--}}
+            {{--<a class="nav-link" href="#">Team</a>--}}
+            {{--</li>--}}
+            {{--<li class="nav-item">--}}
+            {{--<a class="nav-link" href="#">Contact</a>--}}
+            {{--</li>--}}
+            {{--</ul>--}}
             {{--</div>--}}
         </div>
     </nav>
@@ -47,12 +47,12 @@
 <section class="cover">
     <div class="container">
         <div class="welcome-box">
-            <div class="title">HELLO.</div>
-            <p>
+            <div class="title loader-part">HELLO.</div>
+            <p class="loader-part">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid, amet dicta esse molestias nesciunt
                 optio porro quasi ullam. Itaque.
             </p>
-            <button class="btn btn-colored action">LETS START</button>
+            <button class="btn btn-colored action loader-part">LETS START</button>
         </div>
     </div>
 </section>
@@ -61,10 +61,10 @@
     <div class="container">
         <div class="row">
             <div class="col-md-5">
-                <div class="section-title-side">Who We Are</div>
+                <div class="section-title-side loader-part">Who We Are</div>
             </div>
             <div class="col-md-7">
-                <div class="section-text-side">
+                <div class="section-text-side loader-part">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, commodi corporis debitis
                     distinctio
                     earum eligendi exercitationem expedita illo, magni nam obcaecati officiis qui quia velit, veniam.
@@ -77,7 +77,7 @@
 
 <section class="what_we_do">
     <div class="container">
-        <div class="row">
+        <div class="row loader-part">
             <div class="col-md-12">
                 <div class="section-title-center">
                     <span>What We Do</span>
@@ -85,30 +85,83 @@
             </div>
         </div>
         <div class="row abilities">
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
-                <div class="box ability-1">
 
-                    <div class="abilities-title">Web Development</div>
+            <div class="loader-part col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="box">
+                    <div class="row full-height">
+                        <div class="col-md-6 full-height">
+                            <div class="ability ability-1">
+
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="abilities-title">Websites & Apps</div>
+                            <p class="abilities-description">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. At facere omnis rerum? Animi
+                                assumenda consequuntur excepturi ipsam minima ratione reiciendis.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
-                <div class="box ability-2">
 
-                    <div class="abilities-title">Web Design</div>
+            <div class="loader-part col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="box">
+                    <div class="row full-height">
+                        <div class="col-md-6 full-height">
+                            <div class="ability ability-2">
+
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="abilities-title">Graphic Design</div>
+                            <p class="abilities-description">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet libero, quod? A
+                                adipisci autem ex fugit ipsa natus necessitatibus voluptates?
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
-                <div class="box ability-3">
 
-                    <div class="abilities-title">Start-Ups</div>
+            <div class="loader-part col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="box">
+                    <div class="row full-height">
+                        <div class="col-md-6 full-height">
+                            <div class="ability ability-3">
+
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="abilities-title">Start-Ups</div>
+                            <p class="abilities-description">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur consequuntur
+                                cupiditate eum excepturi harum iusto magni minima officia officiis velit!
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
-                <div class="box ability-4">
 
-                    <div class="abilities-title">Graphic Design</div>
+            <div class="loader-part col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="box">
+                    <div class="row full-height">
+                        <div class="col-md-6 full-height">
+                            <div class="ability ability-4">
+
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="abilities-title">Branding</div>
+                            <p class="abilities-description">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur ducimus ex ipsam
+                                iste labore nam omnis repudiandae rerum sunt vero!
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
+
         </div>
     </div>
 </section>
@@ -122,96 +175,96 @@
                 </div>
             </div>
         </div>
-        <div class="row packages">
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 package-parent" id="package-1">
-                <div class="box hover">
-                    <div class="box-header">
-                        <i class="fas fa-angle-left close-package" style="display: none;"></i>
-                    </div>
-                    <div class="package-price">295</div>
-                    <div class="package-description" style="display: none; opacity: 0">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, commodi consectetur
-                            cupiditate deserunt dolore, earum enim est incidunt inventore ipsum iste labore nihil
-                            numquam obcaecati quos reiciendis rerum, sit totam?
-                        </p>
-                    </div>
-                    <div class="box-footer">
-                        <i class="fas fa-ellipsis-h open_package_info" data-target="#package-1"></i>
-                    </div>
-                </div>
-                <div class="open_package_info" data-target="#package-1" style="cursor: pointer">
-                    <div class="package-title">Read more</div>
-                </div>
-            </div>
+        {{--<div class="row packages">--}}
+            {{--<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 package-parent" id="package-1">--}}
+                {{--<div class="box hover">--}}
+                    {{--<div class="box-header">--}}
+                        {{--<i class="fas fa-angle-left close-package" style="display: none;"></i>--}}
+                    {{--</div>--}}
+                    {{--<div class="package-price">295</div>--}}
+                    {{--<div class="package-description" style="display: none; opacity: 0">--}}
+                        {{--<p>--}}
+                            {{--Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, commodi consectetur--}}
+                            {{--cupiditate deserunt dolore, earum enim est incidunt inventore ipsum iste labore nihil--}}
+                            {{--numquam obcaecati quos reiciendis rerum, sit totam?--}}
+                        {{--</p>--}}
+                    {{--</div>--}}
+                    {{--<div class="box-footer">--}}
+                        {{--<i class="fas fa-ellipsis-h open_package_info" data-target="#package-1"></i>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+                {{--<div class="open_package_info" data-target="#package-1" style="cursor: pointer">--}}
+                    {{--<div class="package-title">Read more</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
 
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 package-parent" id="package-2">
-                <div class="box hover">
-                    <div class="box-header">
-                        <i class="fas fa-angle-left close-package" style="display: none;"></i>
-                    </div>
-                    <div class="package-price">450</div>
-                    <div class="package-description" style="display: none; opacity: 0">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, commodi consectetur
-                            cupiditate deserunt dolore, earum enim est incidunt inventore ipsum iste labore nihil
-                            numquam obcaecati quos reiciendis rerum, sit totam?
-                        </p>
-                    </div>
-                    <div class="box-footer">
-                        <i class="fas fa-ellipsis-h open_package_info" data-target="#package-2"></i>
-                    </div>
-                </div>
-                <div class="open_package_info" data-target="#package-2" style="cursor: pointer">
-                    <div class="package-title">Read more</div>
-                </div>
-            </div>
+            {{--<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 package-parent" id="package-2">--}}
+                {{--<div class="box hover">--}}
+                    {{--<div class="box-header">--}}
+                        {{--<i class="fas fa-angle-left close-package" style="display: none;"></i>--}}
+                    {{--</div>--}}
+                    {{--<div class="package-price">450</div>--}}
+                    {{--<div class="package-description" style="display: none; opacity: 0">--}}
+                        {{--<p>--}}
+                            {{--Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, commodi consectetur--}}
+                            {{--cupiditate deserunt dolore, earum enim est incidunt inventore ipsum iste labore nihil--}}
+                            {{--numquam obcaecati quos reiciendis rerum, sit totam?--}}
+                        {{--</p>--}}
+                    {{--</div>--}}
+                    {{--<div class="box-footer">--}}
+                        {{--<i class="fas fa-ellipsis-h open_package_info" data-target="#package-2"></i>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+                {{--<div class="open_package_info" data-target="#package-2" style="cursor: pointer">--}}
+                    {{--<div class="package-title">Read more</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
 
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 package-parent" id="package-3">
-                <div class="box hover">
-                    <div class="box-header">
-                        <i class="fas fa-angle-left close-package" style="display: none;"></i>
-                    </div>
-                    <div class="package-price">750</div>
-                    <div class="package-description" style="display: none; opacity: 0">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, commodi consectetur
-                            cupiditate deserunt dolore, earum enim est incidunt inventore ipsum iste labore nihil
-                            numquam obcaecati quos reiciendis rerum, sit totam?
-                        </p>
-                    </div>
-                    <div class="box-footer">
-                        <i class="fas fa-ellipsis-h open_package_info" data-target="#package-3"></i>
-                    </div>
-                </div>
-                <div class="open_package_info" data-target="#package-3" style="cursor: pointer">
-                    <div class="package-title">Read more</div>
-                </div>
-            </div>
+            {{--<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 package-parent" id="package-3">--}}
+                {{--<div class="box hover">--}}
+                    {{--<div class="box-header">--}}
+                        {{--<i class="fas fa-angle-left close-package" style="display: none;"></i>--}}
+                    {{--</div>--}}
+                    {{--<div class="package-price">750</div>--}}
+                    {{--<div class="package-description" style="display: none; opacity: 0">--}}
+                        {{--<p>--}}
+                            {{--Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, commodi consectetur--}}
+                            {{--cupiditate deserunt dolore, earum enim est incidunt inventore ipsum iste labore nihil--}}
+                            {{--numquam obcaecati quos reiciendis rerum, sit totam?--}}
+                        {{--</p>--}}
+                    {{--</div>--}}
+                    {{--<div class="box-footer">--}}
+                        {{--<i class="fas fa-ellipsis-h open_package_info" data-target="#package-3"></i>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+                {{--<div class="open_package_info" data-target="#package-3" style="cursor: pointer">--}}
+                    {{--<div class="package-title">Read more</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
 
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 package-parent" id="package-4">
-                <div class="box hover">
-                    <div class="box-header">
-                        <i class="fas fa-angle-left close-package" style="display: none;"></i>
-                    </div>
-                    <div class="package-price">1000</div>
-                    <div class="package-description" style="display: none; opacity: 0">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, commodi consectetur
-                            cupiditate deserunt dolore, earum enim est incidunt inventore ipsum iste labore nihil
-                            numquam obcaecati quos reiciendis rerum, sit totam?
-                        </p>
-                    </div>
-                    <div class="box-footer">
-                        <i class="fas fa-ellipsis-h open_package_info" data-target="#package-4"></i>
-                    </div>
-                </div>
-                <div class="open_package_info" data-target="#package-4" style="cursor: pointer">
-                    <div class="package-title">Read more</div>
-                </div>
-            </div>
+            {{--<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 package-parent" id="package-4">--}}
+                {{--<div class="box hover">--}}
+                    {{--<div class="box-header">--}}
+                        {{--<i class="fas fa-angle-left close-package" style="display: none;"></i>--}}
+                    {{--</div>--}}
+                    {{--<div class="package-price">1000</div>--}}
+                    {{--<div class="package-description" style="display: none; opacity: 0">--}}
+                        {{--<p>--}}
+                            {{--Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, commodi consectetur--}}
+                            {{--cupiditate deserunt dolore, earum enim est incidunt inventore ipsum iste labore nihil--}}
+                            {{--numquam obcaecati quos reiciendis rerum, sit totam?--}}
+                        {{--</p>--}}
+                    {{--</div>--}}
+                    {{--<div class="box-footer">--}}
+                        {{--<i class="fas fa-ellipsis-h open_package_info" data-target="#package-4"></i>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+                {{--<div class="open_package_info" data-target="#package-4" style="cursor: pointer">--}}
+                    {{--<div class="package-title">Read more</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
 
-        </div>
+        {{--</div>--}}
     </div>
 </section>
 
@@ -223,18 +276,18 @@
             </div>
             <div class="col-md-7">
                 {{--<table class="table">--}}
-                    {{--<tr>--}}
-                        {{--<th>Email</th>--}}
-                        {{--<td>contact@websijtje.nl</td>--}}
-                    {{--</tr>--}}
-                    {{--<tr>--}}
-                        {{--<th>Skype</th>--}}
-                        {{--<td>contact@websijtje.nl</td>--}}
-                    {{--</tr>--}}
-                    {{--<tr>--}}
-                        {{--<th>WhatsApp</th>--}}
-                        {{--<td>+98 935 706 2236</td>--}}
-                    {{--</tr>--}}
+                {{--<tr>--}}
+                {{--<th>Email</th>--}}
+                {{--<td>contact@websijtje.nl</td>--}}
+                {{--</tr>--}}
+                {{--<tr>--}}
+                {{--<th>Skype</th>--}}
+                {{--<td>contact@websijtje.nl</td>--}}
+                {{--</tr>--}}
+                {{--<tr>--}}
+                {{--<th>WhatsApp</th>--}}
+                {{--<td>+98 935 706 2236</td>--}}
+                {{--</tr>--}}
                 {{--</table>--}}
                 <div class="contact-box">
                     <a href="">
@@ -265,6 +318,26 @@
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="{{ asset('bootstrap-4/js/bootstrap.min.js') }}"></script>
 <script>
+    function loadLoaders() {
+        var scrolled = $(window).scrollTop();
+        var wHeight = $(window).height();
+        $('.loader-part').each(function () {
+            var _this = $(this)
+
+            setTimeout(function(){
+                var offset = _this.offset().top;
+                if (wHeight + scrolled > offset) {
+                    setTimeout(function () {
+                        _this.css({
+                            'opacity': '1',
+                            'top': '0'
+                        });
+                    }, 400);
+                }
+            });
+        });
+    }
+
     function openPackage(packageId) {
         var el = $(packageId);
         $('.package-parent').hide();
@@ -312,6 +385,13 @@
     });
     $('.close-package').click(function () {
         closePackages();
+    });
+
+    $(document).ready(function () {
+        loadLoaders();
+    });
+    $(document).scroll(function () {
+        loadLoaders();
     });
 </script>
 </body>

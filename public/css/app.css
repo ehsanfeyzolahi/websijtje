@@ -294,17 +294,40 @@ section.packages::after {
     margin-bottom: 20px;
 }
 
-.abilities-title {
-    display: block;
-    text-align: center;
-    padding: 10px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    color: #fff;
+.abilities .box {
+    margin-bottom: 50px;
+    overflow: hidden;
+    box-shadow: 0 1px 25px 5px rgba(0, 0, 20, .08);
+    border-radius: 20% 15% 15% 20% / 50% 39% 39% 70%;
 }
 
+.abilities-title {
+    display: block;
+    text-align: left;
+    padding: 10px;
+    color: #444;
+}
+
+.abilities-description {
+    font-size: .92em;
+    font-weight: 100;
+    color: #555;
+    padding-right: 15px;
+}
+
+.full-height {
+    height: 100%;
+}
+.ability {
+    width: 150%;
+    position: relative;
+    right: 0;
+    left: -50%;
+    height: 100%;
+    transform: skew(10deg);
+    border-radius: 14% 16% 24% 16%/24% 32% 72% 16%;
+
+}
 .ability-1 {
     background-image: -webkit-gradient(linear, left top, left bottom, from(#f44881), to(#ec454f));
     background-image: linear-gradient(180deg, #f44881, #ec454f)
@@ -411,6 +434,15 @@ section.contact {
 
 .abilities {
     padding-top: 20px;
+}
+
+
+
+.loader-part {
+    opacity: 0;
+    position: relative;
+    top: 40px;
+    transition: opacity .5s, top .5s;
 }
 
 @media screen and (max-width: 1000px) {
