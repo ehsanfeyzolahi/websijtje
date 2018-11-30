@@ -204,36 +204,56 @@
             </div>
         </div>
         <div class="row works-container">
+            <div class="container">
+                <ul class="nav nav-tabs work-tabs" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#websites" role="tab"
+                           aria-controls="websites" aria-selected="true">Websites</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                           aria-controls="profile" aria-selected="false">Design</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="tab-content works-tabs-parts" id="myTabContent" style="width: 100%">
+                <div class="tab-pane fade show active" id="websites" role="tabpanel" aria-labelledby="home-tab"
+                     style="width: 100%">
+                    <div class="row">
 
-            <div class="col-lg-4 col-md-6 col-sm-12 col-sm-12 loader-part">
-                <a href="#">
-                    <div class="work-box website">
-                        <div class="work-box-bg" style="background-image: url('{{ asset('img/websites/1.jpg') }}')"></div>
-                        <div class="work-box-header"><i class="far fa-ellipsis-h"></i></div>
-                        <div class="work-info">
-                            <div>
-                                <div class="project-title">websijtje</div>
-                            </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 col-sm-12 loader-part">
+                            <a href="#">
+                                <div class="work-box website">
+                                    <div class="work-box-bg"
+                                         style="background-image: url('{{ asset('img/websites/1.jpg') }}')"></div>
+                                    <div class="work-box-header"><i class="far fa-ellipsis-h"></i></div>
+                                    <div class="work-info">
+                                        <div>
+                                            <div class="project-title">websijtje</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12 col-sm-12 loader-part">
+                            <a href="#">
+                                <div class="work-box website">
+                                    <div class="work-box-bg"
+                                         style="background-image: url('{{ asset('img/websites/2.jpg') }}')"></div>
+                                    <div class="work-box-header"><i class="far fa-ellipsis-h"></i></div>
+                                    <div class="work-info">
+                                        <div>
+                                            <div class="project-title">websijtje</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
                     </div>
-                </a>
+                </div>
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">.2..</div>
             </div>
-
-            <div class="col-lg-4 col-md-6 col-sm-12 col-sm-12 loader-part">
-                <a href="#">
-                    <div class="work-box website">
-                        <div class="work-box-bg" style="background-image: url('{{ asset('img/websites/2.jpg') }}')"></div>
-                        <div class="work-box-header"><i class="far fa-ellipsis-h"></i></div>
-                        <div class="work-info">
-                            <div>
-                                <div class="project-title">websijtje</div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-
         </div>
     </div>
 </section>

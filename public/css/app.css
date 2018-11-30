@@ -461,6 +461,10 @@ section.contact {
     z-index: 999;
 }
 
+.work-box {
+    width: 100%;
+}
+
 .work-box.website {
     width: 100%;
     margin-bottom: 30px;
@@ -470,6 +474,10 @@ section.contact {
     overflow: hidden;
     box-shadow: 0px 4px 15px 0 rgba(0, 0, 0, .2);
     border-radius: 4px;
+}
+
+.works-tabs-parts {
+    padding-top: 30px;
 }
 
 .work-box .work-box-header {
@@ -551,6 +559,34 @@ section.contact {
 .ability-url:hover {
     color: #444;
     border-color: #444;
+}
+
+.work-tabs {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    border: none;
+}
+
+.work-tabs .nav-item {
+    margin: auto;
+    background: transparent;
+    display: inline-block;
+    width: 100px;
+    float: none;
+}
+
+.work-tabs .nav-item.active, .work-tabs .nav-link.active {
+    background: transparent;
+}
+
+.work-tabs .nav-link {
+    border: none;
+    border-bottom: 3px solid transparent;
+}
+
+.work-tabs .nav-link.active {
+    border-color: black;
 }
 
 @media screen and (max-width: 1000px) {
