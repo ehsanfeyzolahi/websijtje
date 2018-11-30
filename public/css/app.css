@@ -475,6 +475,17 @@ section.contact {
     box-shadow: 0px 4px 15px 0 rgba(0, 0, 0, .2);
     border-radius: 4px;
 }
+.work-box.design {
+    width: 100%;
+    margin-bottom: 30px;
+    position: relative;
+    min-height: 260px;
+    background-color: #dedede;
+    overflow: hidden;
+    box-shadow: 0px 4px 15px 0 rgba(0, 0, 0, .2);
+    border-radius: 4px;
+}
+
 
 .works-tabs-parts {
     padding-top: 30px;
@@ -532,6 +543,12 @@ section.contact {
     align-items: center;
     justify-content: center;
     opacity: 0;
+}
+
+
+
+.work-box.design .work-info, .work-box.design .work-box-bg{
+    top: 0;
 }
 
 .work-box:hover .work-info {

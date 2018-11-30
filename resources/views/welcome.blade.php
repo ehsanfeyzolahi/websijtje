@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
           integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ asset('bootstrap-4/css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}?v=0.1.2">
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}?v=0.1.3">
     <title>websijtje</title>
 </head>
 <body>
@@ -252,7 +252,59 @@
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">.2..</div>
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab" style="width: 100%">
+                    <div class="row">
+
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="work-box design">
+                                <div class="work-box-bg"
+                                     style="background-image: url('{{ asset('img/designs/1.jpeg') }}')"></div>
+                                <div class="work-info">
+                                    <div>
+                                        <div class="project-title">websijtje</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="work-box design">
+                                <div class="work-box-bg"
+                                     style="background-image: url('{{ asset('img/designs/2.jpeg') }}')"></div>
+                                <div class="work-info">
+                                    <div>
+                                        <div class="project-title">websijtje</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="work-box design">
+                                <div class="work-box-bg"
+                                     style="background-image: url('{{ asset('img/designs/3.jpeg') }}')"></div>
+                                <div class="work-info">
+                                    <div>
+                                        <div class="project-title">websijtje</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="work-box design">
+                                <div class="work-box-bg"
+                                     style="background-image: url('{{ asset('img/designs/4.jpeg') }}')"></div>
+                                <div class="work-info">
+                                    <div>
+                                        <div class="project-title">websijtje</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </div>
     </div>
