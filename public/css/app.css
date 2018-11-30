@@ -39,12 +39,13 @@ a, a:hover {
 }
 
 header nav a {
-    color: #444;
+    margin: 0 5px;
+    color: #fff;
     font-weight: 300;
 }
 
 header nav a:hover {
-    color: #666;
+    color: #fafafa;
 }
 
 header {
@@ -130,6 +131,7 @@ section.cover .welcome-box p {
     font-weight: 500;
     /*display: inline-block;*/
     width: auto;
+    z-index: 99999;
     text-align: center;
 }
 
@@ -191,7 +193,7 @@ section.what_we_do {
     /*background: gray;*/
 }
 
-section.packages::before {
+section.works::before {
     background: rgb(245, 245, 245);
     content: ' ';
     height: 195px;
@@ -209,14 +211,14 @@ section.packages::before {
     top: -120px;
 }
 
-section.packages {
+section.works {
     z-index: 900000;
     padding-bottom: 100px;
     background-color: rgb(245, 245, 245);
     position: relative;
 }
 
-section.packages::after {
+section.works::after {
     background: rgb(245, 245, 245);
     content: ' ';
     height: 195px;
