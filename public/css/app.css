@@ -304,7 +304,7 @@ section.packages::after {
 .abilities-title {
     display: block;
     text-align: left;
-    padding: 10px;
+    padding: 10px 0;
     color: #444;
 }
 
@@ -313,6 +313,13 @@ section.packages::after {
     font-weight: 100;
     color: #555;
     padding-right: 15px;
+}
+
+.ability-content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .full-height {

@@ -95,11 +95,15 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="abilities-title">Websites & Apps</div>
-                            <p class="abilities-description">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. At facere omnis rerum? Animi
-                                assumenda consequuntur excepturi ipsam minima ratione reiciendis.
-                            </p>
+                            <div class="ability-content">
+                                <div>
+                                    <div class="abilities-title">Websites & Apps</div>
+                                    <p class="abilities-description">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. At facere omnis rerum? Animi
+                                        assumenda consequuntur excepturi ipsam minima ratione reiciendis.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -114,11 +118,15 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="abilities-title">Graphic Design</div>
-                            <p class="abilities-description">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet libero, quod? A
-                                adipisci autem ex fugit ipsa natus necessitatibus voluptates?
-                            </p>
+                            <div class="ability-content">
+                                <div>
+                                    <div class="abilities-title">Graphic Design</div>
+                                    <p class="abilities-description">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet libero, quod? A
+                                        adipisci autem ex fugit ipsa natus necessitatibus voluptates?
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -133,11 +141,15 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="abilities-title">Start-Ups</div>
-                            <p class="abilities-description">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur consequuntur
-                                cupiditate eum excepturi harum iusto magni minima officia officiis velit!
-                            </p>
+                            <div class="ability-content">
+                                <div>
+                                    <div class="abilities-title">Start-Ups</div>
+                                    <p class="abilities-description">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur consequuntur
+                                        cupiditate eum excepturi harum iusto magni minima officia officiis velit!
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -152,11 +164,15 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="abilities-title">Branding</div>
-                            <p class="abilities-description">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur ducimus ex ipsam
-                                iste labore nam omnis repudiandae rerum sunt vero!
-                            </p>
+                            <div class="ability-content">
+                                <div>
+                                    <div class="abilities-title">Branding</div>
+                                    <p class="abilities-description">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur ducimus ex ipsam
+                                        iste labore nam omnis repudiandae rerum sunt vero!
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
