@@ -526,7 +526,7 @@ section.contact {
     filter: blur(0px);
 }
 
-.work-box.website:hover .work-box-bg {
+.work-box:hover .work-box-bg {
     filter: blur(8px);
 }
 
