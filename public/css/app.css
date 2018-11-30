@@ -318,6 +318,7 @@ section.packages::after {
 .full-height {
     height: 100%;
 }
+
 .ability {
     width: 150%;
     position: relative;
@@ -328,6 +329,7 @@ section.packages::after {
     border-radius: 14% 16% 24% 16%/24% 32% 72% 16%;
 
 }
+
 .ability-1 {
     background-image: -webkit-gradient(linear, left top, left bottom, from(#f44881), to(#ec454f));
     background-image: linear-gradient(180deg, #f44881, #ec454f)
@@ -435,8 +437,6 @@ section.contact {
 .abilities {
     padding-top: 20px;
 }
-
-
 
 .loader-part {
     opacity: 0;

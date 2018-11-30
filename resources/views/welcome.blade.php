@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
           integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ asset('bootstrap-4/css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}?v=0.0.4">
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}?v=0.1.0">
     <title>websijtje</title>
 </head>
 <body>
@@ -176,93 +176,93 @@
             </div>
         </div>
         {{--<div class="row packages">--}}
-            {{--<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 package-parent" id="package-1">--}}
-                {{--<div class="box hover">--}}
-                    {{--<div class="box-header">--}}
-                        {{--<i class="fas fa-angle-left close-package" style="display: none;"></i>--}}
-                    {{--</div>--}}
-                    {{--<div class="package-price">295</div>--}}
-                    {{--<div class="package-description" style="display: none; opacity: 0">--}}
-                        {{--<p>--}}
-                            {{--Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, commodi consectetur--}}
-                            {{--cupiditate deserunt dolore, earum enim est incidunt inventore ipsum iste labore nihil--}}
-                            {{--numquam obcaecati quos reiciendis rerum, sit totam?--}}
-                        {{--</p>--}}
-                    {{--</div>--}}
-                    {{--<div class="box-footer">--}}
-                        {{--<i class="fas fa-ellipsis-h open_package_info" data-target="#package-1"></i>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-                {{--<div class="open_package_info" data-target="#package-1" style="cursor: pointer">--}}
-                    {{--<div class="package-title">Read more</div>--}}
-                {{--</div>--}}
-            {{--</div>--}}
+        {{--<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 package-parent" id="package-1">--}}
+        {{--<div class="box hover">--}}
+        {{--<div class="box-header">--}}
+        {{--<i class="fas fa-angle-left close-package" style="display: none;"></i>--}}
+        {{--</div>--}}
+        {{--<div class="package-price">295</div>--}}
+        {{--<div class="package-description" style="display: none; opacity: 0">--}}
+        {{--<p>--}}
+        {{--Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, commodi consectetur--}}
+        {{--cupiditate deserunt dolore, earum enim est incidunt inventore ipsum iste labore nihil--}}
+        {{--numquam obcaecati quos reiciendis rerum, sit totam?--}}
+        {{--</p>--}}
+        {{--</div>--}}
+        {{--<div class="box-footer">--}}
+        {{--<i class="fas fa-ellipsis-h open_package_info" data-target="#package-1"></i>--}}
+        {{--</div>--}}
+        {{--</div>--}}
+        {{--<div class="open_package_info" data-target="#package-1" style="cursor: pointer">--}}
+        {{--<div class="package-title">Read more</div>--}}
+        {{--</div>--}}
+        {{--</div>--}}
 
-            {{--<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 package-parent" id="package-2">--}}
-                {{--<div class="box hover">--}}
-                    {{--<div class="box-header">--}}
-                        {{--<i class="fas fa-angle-left close-package" style="display: none;"></i>--}}
-                    {{--</div>--}}
-                    {{--<div class="package-price">450</div>--}}
-                    {{--<div class="package-description" style="display: none; opacity: 0">--}}
-                        {{--<p>--}}
-                            {{--Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, commodi consectetur--}}
-                            {{--cupiditate deserunt dolore, earum enim est incidunt inventore ipsum iste labore nihil--}}
-                            {{--numquam obcaecati quos reiciendis rerum, sit totam?--}}
-                        {{--</p>--}}
-                    {{--</div>--}}
-                    {{--<div class="box-footer">--}}
-                        {{--<i class="fas fa-ellipsis-h open_package_info" data-target="#package-2"></i>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-                {{--<div class="open_package_info" data-target="#package-2" style="cursor: pointer">--}}
-                    {{--<div class="package-title">Read more</div>--}}
-                {{--</div>--}}
-            {{--</div>--}}
+        {{--<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 package-parent" id="package-2">--}}
+        {{--<div class="box hover">--}}
+        {{--<div class="box-header">--}}
+        {{--<i class="fas fa-angle-left close-package" style="display: none;"></i>--}}
+        {{--</div>--}}
+        {{--<div class="package-price">450</div>--}}
+        {{--<div class="package-description" style="display: none; opacity: 0">--}}
+        {{--<p>--}}
+        {{--Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, commodi consectetur--}}
+        {{--cupiditate deserunt dolore, earum enim est incidunt inventore ipsum iste labore nihil--}}
+        {{--numquam obcaecati quos reiciendis rerum, sit totam?--}}
+        {{--</p>--}}
+        {{--</div>--}}
+        {{--<div class="box-footer">--}}
+        {{--<i class="fas fa-ellipsis-h open_package_info" data-target="#package-2"></i>--}}
+        {{--</div>--}}
+        {{--</div>--}}
+        {{--<div class="open_package_info" data-target="#package-2" style="cursor: pointer">--}}
+        {{--<div class="package-title">Read more</div>--}}
+        {{--</div>--}}
+        {{--</div>--}}
 
-            {{--<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 package-parent" id="package-3">--}}
-                {{--<div class="box hover">--}}
-                    {{--<div class="box-header">--}}
-                        {{--<i class="fas fa-angle-left close-package" style="display: none;"></i>--}}
-                    {{--</div>--}}
-                    {{--<div class="package-price">750</div>--}}
-                    {{--<div class="package-description" style="display: none; opacity: 0">--}}
-                        {{--<p>--}}
-                            {{--Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, commodi consectetur--}}
-                            {{--cupiditate deserunt dolore, earum enim est incidunt inventore ipsum iste labore nihil--}}
-                            {{--numquam obcaecati quos reiciendis rerum, sit totam?--}}
-                        {{--</p>--}}
-                    {{--</div>--}}
-                    {{--<div class="box-footer">--}}
-                        {{--<i class="fas fa-ellipsis-h open_package_info" data-target="#package-3"></i>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-                {{--<div class="open_package_info" data-target="#package-3" style="cursor: pointer">--}}
-                    {{--<div class="package-title">Read more</div>--}}
-                {{--</div>--}}
-            {{--</div>--}}
+        {{--<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 package-parent" id="package-3">--}}
+        {{--<div class="box hover">--}}
+        {{--<div class="box-header">--}}
+        {{--<i class="fas fa-angle-left close-package" style="display: none;"></i>--}}
+        {{--</div>--}}
+        {{--<div class="package-price">750</div>--}}
+        {{--<div class="package-description" style="display: none; opacity: 0">--}}
+        {{--<p>--}}
+        {{--Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, commodi consectetur--}}
+        {{--cupiditate deserunt dolore, earum enim est incidunt inventore ipsum iste labore nihil--}}
+        {{--numquam obcaecati quos reiciendis rerum, sit totam?--}}
+        {{--</p>--}}
+        {{--</div>--}}
+        {{--<div class="box-footer">--}}
+        {{--<i class="fas fa-ellipsis-h open_package_info" data-target="#package-3"></i>--}}
+        {{--</div>--}}
+        {{--</div>--}}
+        {{--<div class="open_package_info" data-target="#package-3" style="cursor: pointer">--}}
+        {{--<div class="package-title">Read more</div>--}}
+        {{--</div>--}}
+        {{--</div>--}}
 
-            {{--<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 package-parent" id="package-4">--}}
-                {{--<div class="box hover">--}}
-                    {{--<div class="box-header">--}}
-                        {{--<i class="fas fa-angle-left close-package" style="display: none;"></i>--}}
-                    {{--</div>--}}
-                    {{--<div class="package-price">1000</div>--}}
-                    {{--<div class="package-description" style="display: none; opacity: 0">--}}
-                        {{--<p>--}}
-                            {{--Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, commodi consectetur--}}
-                            {{--cupiditate deserunt dolore, earum enim est incidunt inventore ipsum iste labore nihil--}}
-                            {{--numquam obcaecati quos reiciendis rerum, sit totam?--}}
-                        {{--</p>--}}
-                    {{--</div>--}}
-                    {{--<div class="box-footer">--}}
-                        {{--<i class="fas fa-ellipsis-h open_package_info" data-target="#package-4"></i>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-                {{--<div class="open_package_info" data-target="#package-4" style="cursor: pointer">--}}
-                    {{--<div class="package-title">Read more</div>--}}
-                {{--</div>--}}
-            {{--</div>--}}
+        {{--<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 package-parent" id="package-4">--}}
+        {{--<div class="box hover">--}}
+        {{--<div class="box-header">--}}
+        {{--<i class="fas fa-angle-left close-package" style="display: none;"></i>--}}
+        {{--</div>--}}
+        {{--<div class="package-price">1000</div>--}}
+        {{--<div class="package-description" style="display: none; opacity: 0">--}}
+        {{--<p>--}}
+        {{--Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, commodi consectetur--}}
+        {{--cupiditate deserunt dolore, earum enim est incidunt inventore ipsum iste labore nihil--}}
+        {{--numquam obcaecati quos reiciendis rerum, sit totam?--}}
+        {{--</p>--}}
+        {{--</div>--}}
+        {{--<div class="box-footer">--}}
+        {{--<i class="fas fa-ellipsis-h open_package_info" data-target="#package-4"></i>--}}
+        {{--</div>--}}
+        {{--</div>--}}
+        {{--<div class="open_package_info" data-target="#package-4" style="cursor: pointer">--}}
+        {{--<div class="package-title">Read more</div>--}}
+        {{--</div>--}}
+        {{--</div>--}}
 
         {{--</div>--}}
     </div>
@@ -324,17 +324,15 @@
         $('.loader-part').each(function () {
             var _this = $(this)
 
-            setTimeout(function(){
-                var offset = _this.offset().top;
-                if (wHeight + scrolled > offset) {
-                    setTimeout(function () {
-                        _this.css({
-                            'opacity': '1',
-                            'top': '0'
-                        });
-                    }, 400);
-                }
-            });
+            var offset = _this.offset().top;
+            if (wHeight + scrolled > offset) {
+                setTimeout(function () {
+                    _this.css({
+                        'opacity': '1',
+                        'top': '0'
+                    });
+                }, 400);
+            }
         });
     }
 
