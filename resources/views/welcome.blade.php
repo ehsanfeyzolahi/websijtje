@@ -107,6 +107,7 @@
                                         Animi
                                         assumenda consequuntur excepturi ipsam minima ratione reiciendis.
                                     </p>
+                                    {{--<a href="" class="ability-url">Portfolio</a>--}}
                                 </div>
                             </div>
                         </div>
@@ -131,6 +132,7 @@
                                         A
                                         adipisci autem ex fugit ipsa natus necessitatibus voluptates?
                                     </p>
+                                    {{--<a href="" class="ability-url">Portfolio</a>--}}
                                 </div>
                             </div>
                         </div>
@@ -155,6 +157,7 @@
                                         consequuntur
                                         cupiditate eum excepturi harum iusto magni minima officia officiis velit!
                                     </p>
+                                    {{--<a href="" class="ability-url">Experiences</a>--}}
                                 </div>
                             </div>
                         </div>
@@ -179,6 +182,7 @@
                                         ipsam
                                         iste labore nam omnis repudiandae rerum sunt vero!
                                     </p>
+                                    {{--<a href="" class="ability-url">Experiences</a>--}}
                                 </div>
                             </div>
                         </div>
@@ -199,7 +203,37 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row works-container">
+
+            <div class="col-lg-4 col-md-6 col-sm-12 col-sm-12 loader-part">
+                <a href="#">
+                    <div class="work-box website">
+                        <div class="work-box-bg" style="background-image: url('{{ asset('img/websites/1.jpg') }}')"></div>
+                        <div class="work-box-header"><i class="far fa-ellipsis-h"></i></div>
+                        <div class="work-info">
+                            <div>
+                                <div class="project-title">websijtje</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 col-sm-12 loader-part">
+                <a href="#">
+                    <div class="work-box website">
+                        <div class="work-box-bg" style="background-image: url('{{ asset('img/websites/2.jpg') }}')"></div>
+                        <div class="work-box-header"><i class="far fa-ellipsis-h"></i></div>
+                        <div class="work-info">
+                            <div>
+                                <div class="project-title">websijtje</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+
         </div>
     </div>
 </section>
@@ -260,17 +294,17 @@
         var d = $(target).offset().top;
         $('html,body').animate({
             scrollTop: d
-        }, 'slow')
+        }, 'slow');
     });
 
     function loadLoaders() {
         var scrolled = $(window).scrollTop();
         var wHeight = $(window).height();
         $('.loader-part').each(function () {
-            var _this = $(this)
+            var _this = $(this);
 
             var offset = _this.offset().top;
-            if (wHeight + scrolled > offset) {
+            if (wHeight + scrolled - 100 > offset) {
                 setTimeout(function () {
                     _this.css({
                         'opacity': '1',
