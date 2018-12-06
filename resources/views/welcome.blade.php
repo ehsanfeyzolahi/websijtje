@@ -2,6 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="keywords"
+          content="websijtje, website, web, web design, ui, ux, ui design, ux design, graphic design, cheap website, website cost, netherlands, amsterdam web agency, web agency, branding, startups">
+    <meta name="description" content="websijtje, order a cheap website, modern business cards or launch your startup with us! we located all over the world.">
+    <meta name="google-site-verification" content="O1APOhsfVeOlvidL5c2Yd7zDW8A68N5s8Sxr9JFDLh0"/>
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -252,7 +256,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab" style="width: 100%">
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab"
+                     style="width: 100%">
                     <div class="row">
 
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
