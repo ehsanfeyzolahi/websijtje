@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="keywords"
           content="websijtje, website, web, web design, ui, ux, ui design, ux design, graphic design, cheap website, website cost, netherlands, amsterdam web agency, web agency, branding, startups">
-    <meta name="description" content="websijtje, order a cheap website, modern business cards or launch your startup with us! we located all over the world.">
+    <meta name="description"
+          content="websijtje, order a cheap website, modern business cards or launch your startup with us! we located all over the world.">
     <meta name="google-site-verification" content="O1APOhsfVeOlvidL5c2Yd7zDW8A68N5s8Sxr9JFDLh0"/>
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -13,7 +14,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
           integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ asset('bootstrap-4/css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}?v=0.1.5">
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}?v=0.1.6">
     <title>websijtje</title>
 </head>
 <body>
@@ -30,9 +31,9 @@
                     <li class="nav-item">
                         <a class="nav-link smoothScroll" href="#who_we_are">Who We Are</a>
                     </li>
-                    {{--<li class="nav-item">--}}
-                    {{--<a class="nav-link" href="#">Packages</a>--}}
-                    {{--</li>--}}
+                    <li class="nav-item">
+                        <a class="nav-link smoothScroll" href="#packages">Packages</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link smoothScroll" href="#works">Works</a>
                     </li>
@@ -199,7 +200,7 @@
 </section>
 
 <section class="works" id="works">
-    <div class="container">
+    <div class="container loader-part">
         <div class="row">
             <div class="col-md-12">
                 <div class="section-title-center">
@@ -311,6 +312,183 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+</section>
+
+<section class="packages" id="packages">
+    <div class="container">
+        <div class="row loader-part">
+            <div class="col-md-12">
+                <div class="section-title-center">
+                    <span>Pricing</span>
+                </div>
+                <p class="text-center">
+                    Choose the plan that fits your needs.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row packages loader-part">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div class="package-box package-1">
+                    <div class="starter-price">
+                        <span class="hint">starter price:</span>
+                        <div class="price">€295</div>
+                    </div>
+                    <div class="package-title">PERSONAL</div>
+                    <div class="package-options">
+                        <ul>
+                            <li>up to 2 pages</li>
+                            <li>contact by Email</li>
+                            <li>Social media integration</li>
+                            <li>Image slider</li>
+                            <li>Photo gallery</li>
+                            <li>responsive design</li>
+                            <li>customized template</li>
+                        </ul>
+                    </div>
+                    <div class="maintenance-costs">
+                        <div class="hint">Maintenance costs:</div>
+                        <div>
+                            <span class="price">€9</span>
+                            <span class="period">
+                            /month
+                            </span>
+                        </div>
+                        <div>Or</div>
+                        <div>
+                            <span class="price">€90</span>
+                            <span class="period">
+                            /year
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div class="package-box package-2">
+                    <div class="starter-price">
+                        <span class="hint">starter price:</span>
+                        <div class="price">€450</div>
+                    </div>
+                    <div class="package-title">BUSINESS</div>
+                    <div class="package-options">
+                        <ul>
+                            <li>+ all from <span class="package-1-referrer">PERSONAL</span></li>
+                            <li>3 extra landing pages</li>
+                            <li>SEO</li>
+                            <li>simple admin panel</li>
+                            <li>Newsletter</li>
+                            <li>mobile version</li>
+                            <li>Google map display</li>
+
+                        </ul>
+                    </div>
+                    <div class="maintenance-costs">
+                        <div class="hint">Maintenance costs:</div>
+                        <div>
+                            <span class="price">€9</span>
+                            <span class="period">
+                            /month
+                            </span>
+                        </div>
+                        <div>Or</div>
+                        <div>
+                            <span class="price">€90</span>
+                            <span class="period">
+                            /year
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div class="package-box package-3">
+                    <div class="starter-price">
+                        <span class="hint">starter price:</span>
+                        <div class="price">€750</div>
+                    </div>
+                    <div class="package-title">BASIC</div>
+                    <div class="package-options">
+                        <ul>
+                            <li>+ all from <span class="package-2-referrer">BUSINESS</span></li>
+                            <li>5 extra landing pages</li>
+                            <li>advanced management system</li>
+                            <li>RSS news feed</li>
+                            <li>Google webmaster tools</li>
+                            <li>User Registration</li>
+                            <li>Different user and admin roles</li>
+
+                        </ul>
+                    </div>
+                    <div class="maintenance-costs">
+                        <div class="hint">Maintenance costs:</div>
+                        <div>
+                            <span class="price">€9</span>
+                            <span class="period">
+                            /month
+                            </span>
+                        </div>
+                        <div>Or</div>
+                        <div>
+                            <span class="price">€90</span>
+                            <span class="period">
+                            /year
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div class="package-box package-4">
+                    <div class="starter-price">
+                        <span class="hint">starter price:</span>
+                        <div class="price">€1000</div>
+                    </div>
+                    <div class="package-title">ADVANCED</div>
+                    <div class="package-options">
+                        <ul>
+                            <li>+ all from <span class="package-3-referrer">BASIC</span></li>
+                            <li>Unique template design</li>
+                            <li>unique design for icons</li>
+                            <li>logo and covers design</li>
+                            <li>Google analytics</li>
+                            <li>Livechat</li>
+                            <li>Email service</li>
+                        </ul>
+                    </div>
+                    <div class="maintenance-costs">
+                        <div class="hint">Maintenance costs:</div>
+                        <div>
+                            <span class="price">€9</span>
+                            <span class="period">
+                            /month
+                            </span>
+                        </div>
+                        <div>Or</div>
+                        <div>
+                            <span class="price">€90</span>
+                            <span class="period">
+                            /year
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row pt-5">
+            <div class="col-md-1"></div>
+            <div class="col-md-10 text-center">
+                <p class="text-center loader-part packages-description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam beatae, debitis deserunt
+                    distinctio dolores doloribus eaque eligendi eos est eum eveniet iure, minus nostrum perspiciatis
+                    quaerat quas, quasi saepe totam.
+                </p>
+                <button class="btn btn-colored action loader-part">LETS START</button>
+            </div>
+            <div class="col-md-1"></div>
         </div>
     </div>
 </section>
