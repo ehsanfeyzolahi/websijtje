@@ -51,13 +51,88 @@
 
 <section class="cover">
     <div class="container">
-        <div class="welcome-box">
-            <div class="title loader-part">HELLO.</div>
-            <p class="loader-part">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid, amet dicta esse molestias nesciunt
-                optio porro quasi ullam. Itaque.
-            </p>
-            {{--<button class="btn btn-colored action loader-part">LETS START</button>--}}
+        <div class="row">
+            <div class="col-md-5">
+                <div class="welcome-box">
+                    <div class="title loader-part">HELLO.</div>
+                    <p class="loader-part">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid, amet dicta esse molestias
+                        nesciunt
+                        optio porro quasi ullam. Itaque.
+                    </p>
+                    {{--<button class="btn btn-colored action loader-part">LETS START</button>--}}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cover-slider-container">
+        <div class="cover-slider">
+            <div class="slides">
+                <div class="cover-slide third">
+                    <div class="title">Websites & Apps</div>
+                    <div class="icon">
+                        <img src="{{ asset('img/icons/web_app.png') }}" alt="">
+                    </div>
+                    <div class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, eum.
+                    </div>
+                    <div class="link">
+                        <a href="">See More</a>
+                    </div>
+                </div>
+                <div class="cover-slide second">
+                    <div class="title"></div>
+                    <div class="icon">
+                        <img src="{{ asset('img/icons/web_app.png') }}" alt="">
+                    </div>
+                    <div class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, sed.
+                    </div>
+                    <div class="link">
+                        <a href="">See More</a>
+                    </div>
+                </div>
+                <div class="cover-slide first">
+                    <div class="title">Websites & Apps</div>
+                    <div class="icon">
+                        <img src="{{ asset('img/icons/web_app.png') }}" alt="">
+                    </div>
+                    <div class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, laboriosam?
+                    </div>
+                    <div class="link">
+                        <a href="">See More</a>
+                    </div>
+                </div>
+                <div class="cover-slide first">
+                    <div class="title">Graphic Design</div>
+                    <div class="icon">
+                        <img src="{{ asset('img/icons/design.png') }}" alt="">
+                    </div>
+                    <div class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, nisi!
+                    </div>
+                    <div class="link">
+                        <a href="">See More</a>
+                    </div>
+                </div>
+                <div class="cover-slide first">
+                    <div class="title">Start-Ups</div>
+                    <div class="icon">
+                        <img src="{{ asset('img/icons/startups.png') }}" alt="">
+                    </div>
+                    <div class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, totam?
+                    </div>
+                    <div class="link">
+                        <a href="">See More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="cover-slide-controller">
+                <div class="control prev"><</div>
+                <div class="control next">></div>
+            </div>
         </div>
     </div>
 </section>
@@ -542,6 +617,7 @@
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="{{ asset('bootstrap-4/js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('js/app.js') }}"></script>
 <script>
     $('a.smoothScroll').click(function (e) {
         e.preventDefault();
