@@ -847,7 +847,8 @@ section.contact {
 
     section.cover {
         /*background: linear-gradient(118deg, rgb(31, 25, 28), rgb(65, 63, 67));*/
-        background: linear-gradient(118deg, #f46553, #ff3158);
+        /*background: linear-gradient(118deg, #f46553, #ff3158);*/
+        background: rgb(43, 85, 182);
 
     }
 
@@ -858,7 +859,7 @@ section.contact {
     section.cover .welcome-box {
         max-width: 100%;
         width: 100%;
-        text-align: center;
+        /*text-align: center;*/
     }
 
     section.cover .welcome-box, section.cover .welcome-box .title {
@@ -890,5 +891,14 @@ section.contact {
 
     .section-title-side::after {
         display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cover-slider-container {
+        display: none;
+    }
+    section.cover .welcome-box {
+        text-align: center;
     }
 }
