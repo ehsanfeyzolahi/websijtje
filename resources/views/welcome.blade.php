@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
           integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ asset('bootstrap-4/css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}?v=0.3.0">
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}?v=0.4.0">
     <title>websijtje</title>
 </head>
 <body>
@@ -31,6 +31,9 @@
                 <ul class="navbar-nav mr-auto" style="margin-left: auto !important; margin-right: 0 !important;">
                     <li class="nav-item">
                         <a class="nav-link smoothScroll" href="#who_we_are">Who We Are</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link smoothScroll" href="#what_we_do">What We Do</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link smoothScroll" href="#packages">Packages</a>
@@ -160,7 +163,7 @@
     </div>
 </section>
 
-<section class="what_we_do">
+<section class="what_we_do" id="what_we_do">
     <div class="container">
         <div class="row loader-part">
             <div class="col-md-12">
@@ -174,12 +177,15 @@
             <div class="loader-part col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div class="box">
                     <div class="row full-height">
-                        <div class="col-md-6 full-height">
+                        <div class="col-md-6 full-height ability-shape">
                             <div class="ability ability-1">
+                                <img src="{{ asset('img/icons/web_app.png') }}" class="ability-icon" alt="" style="margin-top: 40px">
+                            </div>
+                            <div class="ability-icon">
 
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 ability-info">
                             <div class="ability-content">
                                 <div>
                                     <div class="abilities-title">Websites & Apps</div>
@@ -199,12 +205,12 @@
             <div class="loader-part col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div class="box">
                     <div class="row full-height">
-                        <div class="col-md-6 full-height">
+                        <div class="col-md-6 full-height ability-shape">
                             <div class="ability ability-2">
-
+                                <img src="{{ asset('img/icons/design.png') }}" class="ability-icon" alt="" style="margin-top: 28px">
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 ability-info">
                             <div class="ability-content">
                                 <div>
                                     <div class="abilities-title">Graphic Design</div>
@@ -224,12 +230,12 @@
             <div class="loader-part col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div class="box">
                     <div class="row full-height">
-                        <div class="col-md-6 full-height">
+                        <div class="col-md-6 full-height ability-shape">
                             <div class="ability ability-3">
-
+                                <img src="{{ asset('img/icons/startups.png') }}" class="ability-icon" alt="" style="width: 30%; float: right; margin-top: 30px">
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 ability-info">
                             <div class="ability-content">
                                 <div>
                                     <div class="abilities-title">Start-Ups</div>
@@ -249,12 +255,12 @@
             <div class="loader-part col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div class="box">
                     <div class="row full-height">
-                        <div class="col-md-6 full-height">
+                        <div class="col-md-6 full-height ability-shape">
                             <div class="ability ability-4">
-
+                                <img src="{{ asset('img/icons/web_app.png') }}" class="ability-icon" alt="" style="margin-top: 40px">
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6  ability-info">
                             <div class="ability-content">
                                 <div>
                                     <div class="abilities-title">Branding</div>
@@ -407,7 +413,7 @@
     </div>
     <div class="container">
         <div class="row packages loader-part">
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
                 <div class="package-box package-1">
                     <div class="starter-price">
                         <span class="hint">starter price:</span>
@@ -443,7 +449,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
                 <div class="package-box package-2">
                     <div class="starter-price">
                         <span class="hint">starter price:</span>
@@ -480,7 +486,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
                 <div class="package-box package-3">
                     <div class="starter-price">
                         <span class="hint">starter price:</span>
@@ -517,7 +523,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
                 <div class="package-box package-4">
                     <div class="starter-price">
                         <span class="hint">starter price:</span>
