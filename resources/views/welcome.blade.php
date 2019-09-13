@@ -15,17 +15,17 @@
           integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ asset('bootstrap-4/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}?v=0.4.0">
-    <title>websijtje</title>
+    <title>Websijtje | Dutch Web agency!</title>
 </head>
 <body>
 
 <header>
     <nav class="navbar navbar-expand-lg ">
         <div class="container">
-            <a class="navbar-brand" href="{{ url('/') }}">
+            <h1 class="navbar-brand" href="{{ url('/') }}">
                 {{--<img src="{{ asset('img/logotype-websijtje.png') }}" alt="" class="top-log-img">--}}
                 Websijtje
-            </a>
+            </h1>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto" style="margin-left: auto !important; margin-right: 0 !important;">
@@ -39,7 +39,7 @@
                         <a class="nav-link smoothScroll" href="#packages">Packages</a>
                     </li>
                     {{--<li class="nav-item">--}}
-                        {{--<a class="nav-link smoothScroll" href="#works">Works</a>--}}
+                    {{--<a class="nav-link smoothScroll" href="#works">Works</a>--}}
                     {{--</li>--}}
                     {{--<li class="nav-item">--}}
                     {{--<a class="nav-link" href="#">Team</a>--}}
@@ -58,13 +58,13 @@
         <div class="row">
             <div class="col-md-5">
                 <div class="welcome-box">
-                    <div class="title loader-part">HELLO.</div>
-                    <p class="loader-part">
+                    <div class="title ">HELLO.</div>
+                    <p class="">
                         You are not middle of the road, . You want to stand out and we can help you. We make nice
                         tailored websites that meet your needs and wishes. For a nice and unbeatable price. Why? Because
                         you deserve it.
                     </p>
-                    {{--<button class="btn btn-colored action loader-part">LETS START</button>--}}
+                    {{--<button class="btn btn-colored action ">LETS START</button>--}}
                 </div>
             </div>
         </div>
@@ -78,11 +78,12 @@
                         <img src="{{ asset('img/icons/web_app.png') }}" alt="">
                     </div>
                     <div class="description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, eum.
+                        You need a website, web application or mobile app?
+                        just let us know! we will do it.
                     </div>
-                    <div class="link">
-                        <a href="">See More</a>
-                    </div>
+                    {{--<div class="link">--}}
+                        {{--<a href="">See More</a>--}}
+                    {{--</div>--}}
                 </div>
                 <div class="cover-slide second">
                     <div class="title">Start-Ups</div>
@@ -90,11 +91,12 @@
                         <img src="{{ asset('img/icons/web_app.png') }}" alt="">
                     </div>
                     <div class="description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, sed.
+                        we have the experience of launching startups all over the world! so why not start your own
+                        business with us?
                     </div>
-                    <div class="link">
-                        <a href="">See More</a>
-                    </div>
+                    {{--<div class="link">--}}
+                        {{--<a href="">See More</a>--}}
+                    {{--</div>--}}
                 </div>
                 <div class="cover-slide first">
                     <div class="title">Websites & Apps</div>
@@ -102,11 +104,12 @@
                         <img src="{{ asset('img/icons/web_app.png') }}" alt="">
                     </div>
                     <div class="description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, laboriosam?
+                        You need a website, web application or mobile app?
+                        just let us know! we will do it.
                     </div>
-                    <div class="link">
-                        <a href="">See More</a>
-                    </div>
+                    {{--<div class="link">--}}
+                        {{--<a href="">See More</a>--}}
+                    {{--</div>--}}
                 </div>
                 <div class="cover-slide first">
                     <div class="title">Graphic Design</div>
@@ -114,11 +117,11 @@
                         <img src="{{ asset('img/icons/design.png') }}" alt="">
                     </div>
                     <div class="description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, nisi!
+                        Let's define ourselves! we can do anything in this field. illustration, logos, UI/UX design... even paintings!
                     </div>
-                    <div class="link">
-                        <a href="">See More</a>
-                    </div>
+                    {{--<div class="link">--}}
+                        {{--<a href="">See More</a>--}}
+                    {{--</div>--}}
                 </div>
                 <div class="cover-slide first">
                     <div class="title">Start-Ups</div>
@@ -126,11 +129,12 @@
                         <img src="{{ asset('img/icons/startups.png') }}" alt="">
                     </div>
                     <div class="description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, totam?
+                        we have the experience of launching startups all over the world! so why not start your own
+                        business with us?
                     </div>
-                    <div class="link">
-                        <a href="">See More</a>
-                    </div>
+                    {{--<div class="link">--}}
+                        {{--<a href="">See More</a>--}}
+                    {{--</div>--}}
                 </div>
             </div>
             {{--<div class="cover-slide-controller">--}}
@@ -145,11 +149,12 @@
     <div class="container">
         <div class="row">
             <div class="col-md-5">
-                <div class="section-title-side loader-part">Who We Are</div>
+                <div class="section-title-side ">Who We Are</div>
             </div>
             <div class="col-md-7">
-                <div class="section-text-side loader-part">
-                    <a href="{{ url('/') }}">Websijtje.nl</a> is a Dutch/Iranian company. Founded after a 10 minute encounter in the metro of Tehran
+                <div class="section-text-side ">
+                    <a href="{{ url('/') }}">Websijtje.nl</a> is a Dutch/Iranian company. Founded after a 10 minute
+                    encounter in the metro of Tehran
                     in September 2017.
                     <br>
                     We will make your website according to your wishes.
@@ -165,7 +170,7 @@
 
 <section class="what_we_do" id="what_we_do">
     <div class="container">
-        <div class="row loader-part">
+        <div class="row ">
             <div class="col-md-12">
                 <div class="section-title-center">
                     <span>What We Do</span>
@@ -174,12 +179,13 @@
         </div>
         <div class="row abilities">
 
-            <div class="loader-part col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class=" col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div class="box">
                     <div class="row full-height">
                         <div class="col-md-6 full-height ability-shape">
                             <div class="ability ability-1">
-                                <img src="{{ asset('img/icons/web_app.png') }}" class="ability-icon" alt="" style="margin-top: 40px">
+                                <img src="{{ asset('img/icons/web_app.png') }}" class="ability-icon" alt=""
+                                     style="margin-top: 40px">
                             </div>
                             <div class="ability-icon">
 
@@ -188,11 +194,10 @@
                         <div class="col-md-6 ability-info">
                             <div class="ability-content">
                                 <div>
-                                    <div class="abilities-title">Websites & Apps</div>
+                                    <h1 class="abilities-title">Websites & Apps</h1>
                                     <p class="abilities-description">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. At facere omnis rerum?
-                                        Animi
-                                        assumenda consequuntur excepturi ipsam minima ratione reiciendis.
+                                        You need a website, web application or mobile app?
+                                        just let us know! we will do it.
                                     </p>
                                     {{--<a href="" class="ability-url">Portfolio</a>--}}
                                 </div>
@@ -202,22 +207,21 @@
                 </div>
             </div>
 
-            <div class="loader-part col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class=" col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div class="box">
                     <div class="row full-height">
                         <div class="col-md-6 full-height ability-shape">
                             <div class="ability ability-2">
-                                <img src="{{ asset('img/icons/design.png') }}" class="ability-icon" alt="" style="margin-top: 28px">
+                                <img src="{{ asset('img/icons/design.png') }}" class="ability-icon" alt=""
+                                     style="margin-top: 28px">
                             </div>
                         </div>
                         <div class="col-md-6 ability-info">
                             <div class="ability-content">
                                 <div>
-                                    <div class="abilities-title">Graphic Design</div>
+                                    <h1 class="abilities-title">Graphic Design</h1>
                                     <p class="abilities-description">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet libero, quod?
-                                        A
-                                        adipisci autem ex fugit ipsa natus necessitatibus voluptates?
+                                        Let's define ourselves! we can do anything in this field. illustration, logos, UI/UX design... even paintings!
                                     </p>
                                     {{--<a href="" class="ability-url">Portfolio</a>--}}
                                 </div>
@@ -227,22 +231,23 @@
                 </div>
             </div>
 
-            <div class="loader-part col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class=" col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div class="box">
                     <div class="row full-height">
                         <div class="col-md-6 full-height ability-shape">
                             <div class="ability ability-3">
-                                <img src="{{ asset('img/icons/startups.png') }}" class="ability-icon" alt="" style="width: 30%; float: right; margin-top: 30px">
+                                <img src="{{ asset('img/icons/startups.png') }}" class="ability-icon" alt=""
+                                     style="width: 30%; float: right; margin-top: 30px">
                             </div>
                         </div>
                         <div class="col-md-6 ability-info">
                             <div class="ability-content">
                                 <div>
-                                    <div class="abilities-title">Start-Ups</div>
+                                    <h1 class="abilities-title">Start-Ups</h1>
                                     <p class="abilities-description">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
-                                        consequuntur
-                                        cupiditate eum excepturi harum iusto magni minima officia officiis velit!
+                                        we have the experience of launching startups all over the world! so why not
+                                        start your own
+                                        business with us?
                                     </p>
                                     {{--<a href="" class="ability-url">Experiences</a>--}}
                                 </div>
@@ -252,22 +257,23 @@
                 </div>
             </div>
 
-            <div class="loader-part col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class=" col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div class="box">
                     <div class="row full-height">
                         <div class="col-md-6 full-height ability-shape">
                             <div class="ability ability-4">
-                                <img src="{{ asset('img/icons/web_app.png') }}" class="ability-icon" alt="" style="margin-top: 40px">
+                                <img src="{{ asset('img/icons/web_app.png') }}" class="ability-icon" alt=""
+                                     style="margin-top: 40px">
                             </div>
                         </div>
                         <div class="col-md-6  ability-info">
                             <div class="ability-content">
                                 <div>
-                                    <div class="abilities-title">Branding</div>
+                                    <h1 class="abilities-title">Branding</h1>
                                     <p class="abilities-description">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur ducimus ex
-                                        ipsam
-                                        iste labore nam omnis repudiandae rerum sunt vero!
+                                        Does your marketing and communication department still do what it needs to do to
+                                        profile your organization properly, develop and distribute the right content?
+                                        need help with this? we are here!
                                     </p>
                                     {{--<a href="" class="ability-url">Experiences</a>--}}
                                 </div>
@@ -282,125 +288,125 @@
 </section>
 
 {{--<section class="works" id="works">--}}
-    {{--<div class="container loader-part">--}}
-        {{--<div class="row">--}}
-            {{--<div class="col-md-12">--}}
-                {{--<div class="section-title-center">--}}
-                    {{--<span>Works</span>--}}
-                {{--</div>--}}
-            {{--</div>--}}
-        {{--</div>--}}
-        {{--<div class="row works-container">--}}
-            {{--<div class="container">--}}
-                {{--<ul class="nav nav-tabs work-tabs" id="myTab" role="tablist">--}}
-                    {{--<li class="nav-item">--}}
-                        {{--<a class="nav-link active" id="home-tab" data-toggle="tab" href="#websites" role="tab"--}}
-                           {{--aria-controls="websites" aria-selected="true">Websites</a>--}}
-                    {{--</li>--}}
-                    {{--<li class="nav-item">--}}
-                        {{--<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"--}}
-                           {{--aria-controls="profile" aria-selected="false">Design</a>--}}
-                    {{--</li>--}}
-                {{--</ul>--}}
-            {{--</div>--}}
-            {{--<div class="tab-content works-tabs-parts" id="myTabContent" style="width: 100%">--}}
-                {{--<div class="tab-pane fade show active" id="websites" role="tabpanel" aria-labelledby="home-tab"--}}
-                     {{--style="width: 100%">--}}
-                    {{--<div class="row">--}}
+{{--<div class="container ">--}}
+{{--<div class="row">--}}
+{{--<div class="col-md-12">--}}
+{{--<div class="section-title-center">--}}
+{{--<span>Works</span>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--<div class="row works-container">--}}
+{{--<div class="container">--}}
+{{--<ul class="nav nav-tabs work-tabs" id="myTab" role="tablist">--}}
+{{--<li class="nav-item">--}}
+{{--<a class="nav-link active" id="home-tab" data-toggle="tab" href="#websites" role="tab"--}}
+{{--aria-controls="websites" aria-selected="true">Websites</a>--}}
+{{--</li>--}}
+{{--<li class="nav-item">--}}
+{{--<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"--}}
+{{--aria-controls="profile" aria-selected="false">Design</a>--}}
+{{--</li>--}}
+{{--</ul>--}}
+{{--</div>--}}
+{{--<div class="tab-content works-tabs-parts" id="myTabContent" style="width: 100%">--}}
+{{--<div class="tab-pane fade show active" id="websites" role="tabpanel" aria-labelledby="home-tab"--}}
+{{--style="width: 100%">--}}
+{{--<div class="row">--}}
 
-                        {{--<div class="col-lg-4 col-md-6 col-sm-12 col-sm-12 loader-part">--}}
-                            {{--<a href="#">--}}
-                                {{--<div class="work-box website">--}}
-                                    {{--<div class="work-box-bg"--}}
-                                         {{--style="background-image: url('{{ asset('img/websites/1.jpg') }}')"></div>--}}
-                                    {{--<div class="work-box-header"><i class="far fa-ellipsis-h"></i></div>--}}
-                                    {{--<div class="work-info">--}}
-                                        {{--<div>--}}
-                                            {{--<div class="project-title">websijtje</div>--}}
-                                        {{--</div>--}}
-                                    {{--</div>--}}
-                                {{--</div>--}}
-                            {{--</a>--}}
-                        {{--</div>--}}
+{{--<div class="col-lg-4 col-md-6 col-sm-12 col-sm-12 ">--}}
+{{--<a href="#">--}}
+{{--<div class="work-box website">--}}
+{{--<div class="work-box-bg"--}}
+{{--style="background-image: url('{{ asset('img/websites/1.jpg') }}')"></div>--}}
+{{--<div class="work-box-header"><i class="far fa-ellipsis-h"></i></div>--}}
+{{--<div class="work-info">--}}
+{{--<div>--}}
+{{--<div class="project-title">websijtje</div>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--</a>--}}
+{{--</div>--}}
 
-                        {{--<div class="col-lg-4 col-md-6 col-sm-12 col-sm-12 loader-part">--}}
-                            {{--<a href="#">--}}
-                                {{--<div class="work-box website">--}}
-                                    {{--<div class="work-box-bg"--}}
-                                         {{--style="background-image: url('{{ asset('img/websites/2.jpg') }}')"></div>--}}
-                                    {{--<div class="work-box-header"><i class="far fa-ellipsis-h"></i></div>--}}
-                                    {{--<div class="work-info">--}}
-                                        {{--<div>--}}
-                                            {{--<div class="project-title">websijtje</div>--}}
-                                        {{--</div>--}}
-                                    {{--</div>--}}
-                                {{--</div>--}}
-                            {{--</a>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-                {{--<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab"--}}
-                     {{--style="width: 100%">--}}
-                    {{--<div class="row">--}}
+{{--<div class="col-lg-4 col-md-6 col-sm-12 col-sm-12 ">--}}
+{{--<a href="#">--}}
+{{--<div class="work-box website">--}}
+{{--<div class="work-box-bg"--}}
+{{--style="background-image: url('{{ asset('img/websites/2.jpg') }}')"></div>--}}
+{{--<div class="work-box-header"><i class="far fa-ellipsis-h"></i></div>--}}
+{{--<div class="work-info">--}}
+{{--<div>--}}
+{{--<div class="project-title">websijtje</div>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--</a>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab"--}}
+{{--style="width: 100%">--}}
+{{--<div class="row">--}}
 
-                        {{--<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">--}}
-                            {{--<div class="work-box design">--}}
-                                {{--<div class="work-box-bg"--}}
-                                     {{--style="background-image: url('{{ asset('img/designs/1.jpeg') }}')"></div>--}}
-                                {{--<div class="work-info">--}}
-                                    {{--<div>--}}
-                                        {{--<div class="project-title">websijtje</div>--}}
-                                    {{--</div>--}}
-                                {{--</div>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
+{{--<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">--}}
+{{--<div class="work-box design">--}}
+{{--<div class="work-box-bg"--}}
+{{--style="background-image: url('{{ asset('img/designs/1.jpeg') }}')"></div>--}}
+{{--<div class="work-info">--}}
+{{--<div>--}}
+{{--<div class="project-title">websijtje</div>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--</div>--}}
 
-                        {{--<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">--}}
-                            {{--<div class="work-box design">--}}
-                                {{--<div class="work-box-bg"--}}
-                                     {{--style="background-image: url('{{ asset('img/designs/2.jpeg') }}')"></div>--}}
-                                {{--<div class="work-info">--}}
-                                    {{--<div>--}}
-                                        {{--<div class="project-title">websijtje</div>--}}
-                                    {{--</div>--}}
-                                {{--</div>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
+{{--<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">--}}
+{{--<div class="work-box design">--}}
+{{--<div class="work-box-bg"--}}
+{{--style="background-image: url('{{ asset('img/designs/2.jpeg') }}')"></div>--}}
+{{--<div class="work-info">--}}
+{{--<div>--}}
+{{--<div class="project-title">websijtje</div>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--</div>--}}
 
-                        {{--<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">--}}
-                            {{--<div class="work-box design">--}}
-                                {{--<div class="work-box-bg"--}}
-                                     {{--style="background-image: url('{{ asset('img/designs/3.jpeg') }}')"></div>--}}
-                                {{--<div class="work-info">--}}
-                                    {{--<div>--}}
-                                        {{--<div class="project-title">websijtje</div>--}}
-                                    {{--</div>--}}
-                                {{--</div>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
+{{--<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">--}}
+{{--<div class="work-box design">--}}
+{{--<div class="work-box-bg"--}}
+{{--style="background-image: url('{{ asset('img/designs/3.jpeg') }}')"></div>--}}
+{{--<div class="work-info">--}}
+{{--<div>--}}
+{{--<div class="project-title">websijtje</div>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--</div>--}}
 
-                        {{--<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">--}}
-                            {{--<div class="work-box design">--}}
-                                {{--<div class="work-box-bg"--}}
-                                     {{--style="background-image: url('{{ asset('img/designs/4.jpeg') }}')"></div>--}}
-                                {{--<div class="work-info">--}}
-                                    {{--<div>--}}
-                                        {{--<div class="project-title">websijtje</div>--}}
-                                    {{--</div>--}}
-                                {{--</div>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
+{{--<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">--}}
+{{--<div class="work-box design">--}}
+{{--<div class="work-box-bg"--}}
+{{--style="background-image: url('{{ asset('img/designs/4.jpeg') }}')"></div>--}}
+{{--<div class="work-info">--}}
+{{--<div>--}}
+{{--<div class="project-title">websijtje</div>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--</div>--}}
 
-                    {{--</div>--}}
-                {{--</div>--}}
-            {{--</div>--}}
-        {{--</div>--}}
-    {{--</div>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--</div>--}}
 {{--</section>--}}
 
 <section class="packages" id="packages">
     <div class="container">
-        <div class="row loader-part">
+        <div class="row ">
             <div class="col-md-12">
                 <div class="section-title-center">
                     <span>Pricing</span>
@@ -412,7 +418,7 @@
         </div>
     </div>
     <div class="container">
-        <div class="row packages loader-part">
+        <div class="row packages ">
             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
                 <div class="package-box package-1">
                     <div class="starter-price">
@@ -563,10 +569,13 @@
         <div class="row pt-5">
             <div class="col-md-1"></div>
             <div class="col-md-10 text-center">
-                <p class="text-center loader-part packages-description">
-                    To make it easy for you we developed four packages. Each package has also three options. Easy and clear.
+                <p class="text-center  packages-description">
+                    To make it easy for you we developed four packages. Each package has also three options. Easy and
+                    clear.
                 </p>
-                <button class="btn btn-colored action loader-part">LETS START</button>
+                <a href="mailto:ehsanfeyzolahi@gmail.com">
+                    <button class="btn btn-colored action ">LETS START</button>
+                </a>
             </div>
             <div class="col-md-1"></div>
         </div>
@@ -576,7 +585,7 @@
 <section class="contact" id="contact">
     <div class="container">
         <div class="row">
-            <div class="col-md-5 loader-part">
+            <div class="col-md-5 ">
                 <div class="section-title-side">Contact</div>
             </div>
             <div class="col-md-7">
@@ -595,21 +604,17 @@
                 {{--</tr>--}}
                 {{--</table>--}}
                 <div class="contact-box">
-                    <a href="" class="loader-part">
-                        <i class="fab fa-whatsapp"></i>
-                        <span>+98 935 706 2236</span>
-                    </a>
-                    {{--<a href="http://t.me/soyEhsan" class="loader-part">--}}
-                        {{--<i class="fab fa-telegram"></i>--}}
-                        {{--<span>+98 935 706 2236</span>--}}
+                    {{--<a href="http://t.me/soyEhsan" class="">--}}
+                    {{--<i class="fab fa-telegram"></i>--}}
+                    {{--<span>+98 935 706 2236</span>--}}
                     {{--</a>--}}
-                    <a href="http://instagram.com/websijtje" class="loader-part" target="_blank">
+                    <a href="http://instagram.com/websijtje" class="" target="_blank">
                         <i class="fab fa-instagram"></i>
                         <span>@websijtje</span>
                     </a>
-                    <a href="mailto:contact@websijtje.nl" class="loader-part" target="_blank">
+                    <a href="mailto:ehsanfeyzolahi@gmail.com" class="" target="_blank">
                         <i class="far fa-envelope"></i>
-                        <span>contact@websijtje.nl</span>
+                        <span>ehsanfeyzolahi@gmail.com</span>
                     </a>
                 </div>
 
@@ -636,7 +641,7 @@
     function loadLoaders() {
         var scrolled = $(window).scrollTop();
         var wHeight = $(window).height();
-        $('.loader-part').each(function () {
+        $('.').each(function () {
             var _this = $(this);
 
             var offset = _this.offset().top;
