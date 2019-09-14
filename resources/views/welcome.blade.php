@@ -85,19 +85,19 @@
                         {{--<a href="">See More</a>--}}
                     {{--</div>--}}
                 </div>
-                <div class="cover-slide second">
-                    <div class="title">Start-Ups</div>
-                    <div class="icon">
-                        <img src="{{ asset('img/icons/web_app.png') }}" alt="">
-                    </div>
-                    <div class="description">
-                        we have the experience of launching startups all over the world! so why not start your own
-                        business with us?
-                    </div>
+                {{--<div class="cover-slide second">--}}
+                    {{--<div class="title">Start-Ups</div>--}}
+                    {{--<div class="icon">--}}
+                        {{--<img src="{{ asset('img/icons/web_app.png') }}" alt="">--}}
+                    {{--</div>--}}
+                    {{--<div class="description">--}}
+                        {{--we have the experience of launching startups all over the world! so why not start your own--}}
+                        {{--business with us?--}}
+                    {{--</div>--}}
                     {{--<div class="link">--}}
                         {{--<a href="">See More</a>--}}
                     {{--</div>--}}
-                </div>
+                {{--</div>--}}
                 <div class="cover-slide first">
                     <div class="title">Websites & Apps</div>
                     <div class="icon">
@@ -123,19 +123,19 @@
                         {{--<a href="">See More</a>--}}
                     {{--</div>--}}
                 </div>
-                <div class="cover-slide first">
-                    <div class="title">Start-Ups</div>
-                    <div class="icon">
-                        <img src="{{ asset('img/icons/startups.png') }}" alt="">
-                    </div>
-                    <div class="description">
-                        we have the experience of launching startups all over the world! so why not start your own
-                        business with us?
-                    </div>
+                {{--<div class="cover-slide first">--}}
+                    {{--<div class="title">Start-Ups</div>--}}
+                    {{--<div class="icon">--}}
+                        {{--<img src="{{ asset('img/icons/startups.png') }}" alt="">--}}
+                    {{--</div>--}}
+                    {{--<div class="description">--}}
+                        {{--we have the experience of launching startups all over the world! so why not start your own--}}
+                        {{--business with us?--}}
+                    {{--</div>--}}
                     {{--<div class="link">--}}
                         {{--<a href="">See More</a>--}}
                     {{--</div>--}}
-                </div>
+                {{--</div>--}}
             </div>
             {{--<div class="cover-slide-controller">--}}
             {{--<div class="control prev"><</div>--}}
@@ -231,57 +231,57 @@
                 </div>
             </div>
 
-            <div class=" col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <div class="box">
-                    <div class="row full-height">
-                        <div class="col-md-6 full-height ability-shape">
-                            <div class="ability ability-3">
-                                <img src="{{ asset('img/icons/startups.png') }}" class="ability-icon" alt=""
-                                     style="width: 30%; float: right; margin-top: 30px">
-                            </div>
-                        </div>
-                        <div class="col-md-6 ability-info">
-                            <div class="ability-content">
-                                <div>
-                                    <h1 class="abilities-title">Start-Ups</h1>
-                                    <p class="abilities-description">
-                                        we have the experience of launching startups all over the world! so why not
-                                        start your own
-                                        business with us?
-                                    </p>
+            {{--<div class=" col-lg-6 col-md-6 col-sm-12 col-xs-12">--}}
+                {{--<div class="box">--}}
+                    {{--<div class="row full-height">--}}
+                        {{--<div class="col-md-6 full-height ability-shape">--}}
+                            {{--<div class="ability ability-3">--}}
+                                {{--<img src="{{ asset('img/icons/startups.png') }}" class="ability-icon" alt=""--}}
+                                     {{--style="width: 30%; float: right; margin-top: 30px">--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                        {{--<div class="col-md-6 ability-info">--}}
+                            {{--<div class="ability-content">--}}
+                                {{--<div>--}}
+                                    {{--<h1 class="abilities-title">Start-Ups</h1>--}}
+                                    {{--<p class="abilities-description">--}}
+                                        {{--we have the experience of launching startups all over the world! so why not--}}
+                                        {{--start your own--}}
+                                        {{--business with us?--}}
+                                    {{--</p>--}}
                                     {{--<a href="" class="ability-url">Experiences</a>--}}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                                {{--</div>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
 
-            <div class=" col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <div class="box">
-                    <div class="row full-height">
-                        <div class="col-md-6 full-height ability-shape">
-                            <div class="ability ability-4">
-                                <img src="{{ asset('img/icons/web_app.png') }}" class="ability-icon" alt=""
-                                     style="margin-top: 40px">
-                            </div>
-                        </div>
-                        <div class="col-md-6  ability-info">
-                            <div class="ability-content">
-                                <div>
-                                    <h1 class="abilities-title">Branding</h1>
-                                    <p class="abilities-description">
-                                        Does your marketing and communication department still do what it needs to do to
-                                        profile your organization properly, develop and distribute the right content?
-                                        need help with this? we are here!
-                                    </p>
+            {{--<div class=" col-lg-6 col-md-6 col-sm-12 col-xs-12">--}}
+                {{--<div class="box">--}}
+                    {{--<div class="row full-height">--}}
+                        {{--<div class="col-md-6 full-height ability-shape">--}}
+                            {{--<div class="ability ability-4">--}}
+                                {{--<img src="{{ asset('img/icons/web_app.png') }}" class="ability-icon" alt=""--}}
+                                     {{--style="margin-top: 40px">--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                        {{--<div class="col-md-6  ability-info">--}}
+                            {{--<div class="ability-content">--}}
+                                {{--<div>--}}
+                                    {{--<h1 class="abilities-title">Branding</h1>--}}
+                                    {{--<p class="abilities-description">--}}
+                                        {{--Does your marketing and communication department still do what it needs to do to--}}
+                                        {{--profile your organization properly, develop and distribute the right content?--}}
+                                        {{--need help with this? we are here!--}}
+                                    {{--</p>--}}
                                     {{--<a href="" class="ability-url">Experiences</a>--}}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                                {{--</div>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
 
         </div>
     </div>
@@ -611,6 +611,10 @@
                     <a href="http://instagram.com/websijtje" class="" target="_blank">
                         <i class="fab fa-instagram"></i>
                         <span>@websijtje</span>
+                    </a>
+                    <a href="https://www.linkedin.com/company/websijtje/" class="" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                        <span>Websijtje</span>
                     </a>
                     <a href="mailto:ehsanfeyzolahi@gmail.com" class="" target="_blank">
                         <i class="far fa-envelope"></i>
